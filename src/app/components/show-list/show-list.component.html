@@ -1,0 +1,14 @@
+<table class="table table-dark table-borderless table-striped table-hover">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Serientitel</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let s of shows">
+      <td>{{ s.id }}</td>
+      <td>{{ s.title }}</td>
+    </tr>
+  </tbody>
+</table>
